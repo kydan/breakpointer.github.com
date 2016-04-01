@@ -252,6 +252,9 @@ footer {
     font-size:12pt;
     color:#444;
   }
+  .no-print, .no-print * {
+    display: none !important;
+  }
 }
 .avatar {
   display: inline-block;
